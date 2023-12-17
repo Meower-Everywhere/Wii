@@ -1,5 +1,6 @@
 #include <stdio.h>
+#include <string>
 
-void DEBUG_print(std::string namespace, std::string text) {
-    printf("[%s] %s\n", namespace, text);
+void debug_print(std::string nmespce, std::string text) {
+    printf("[%s] %s\n", nmespce, text);
 }

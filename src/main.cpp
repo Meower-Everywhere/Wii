@@ -1,8 +1,11 @@
 #include <stdio.h>
+#include <string>
 
 #include "config.hpp"
-#include "debug.hpp"
+// To be used soon™
+// #include "debug.hpp"
 
 int main() {
-    DEBUG_print("me/wii", "Meower-Everywhere Wii v" + VERSION);
+    // debug_print("me/wii", "Meower-Everywhere Wii");
+    printf("[me/wii] Meower for the Nintendo Wii v%s", VERSION);
 }
