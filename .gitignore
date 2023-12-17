@@ -1,0 +1,12 @@
+# Build folder
+build/
+
+# Compiled Wii binaries
+*.dol
+*.elf
+
+# Packed zip file
+me-wii.zip
+
+# Distirbution folder
+dist/
